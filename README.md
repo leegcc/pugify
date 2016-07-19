@@ -24,3 +24,6 @@ or if you are a command line cowboy, something along the lines of
 ```js
 browserify -t pugify entry.js -o bundle.js
 ```
+
+[Jade]: http://jade-lang.com/
+[browserify]: https://github.com/substack/node-browserify
