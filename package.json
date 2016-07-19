@@ -1,0 +1,29 @@
+{
+  "name": "pugify",
+  "description": "A browserify transform for turning .pug files into template functions",
+  "keywords": [
+    "browserify",
+    "jade",
+    "pug",
+    "templates",
+    "templating",
+    "transform"
+  ],
+  "version": "0.0.1",
+  "repository": "aqxa/pugify",
+  "main": "lib/pugify.js",
+  "files": [
+    "lib/"
+  ],
+  "dependencies": {
+    "through": "^2.3.6"
+  },
+  "peerDependencies": {
+    "browserify": ">= 2.4.0 < 14",
+    "pug": "^2.0.0-beta4",
+    "pug-runtime": "^2.0.1"
+  },
+  "devDependencies": {
+    "pug": "^2.0.0-beta4"
+  }
+}
